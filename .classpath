@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/flyway-core-5.1.4.jar" sourcepath="/Users/okeyamechi/.m2/repository/org/flywaydb/flyway-core/5.1.4/flyway-core-5.1.4-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/jstl-1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/ojdbc7-12.1.0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/features/com.amazonaws.eclipse.cloudformation.feature_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/features/com.amazonaws.eclipse.codecommit.feature_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/features/com.amazonaws.eclipse.codedeploy.feature_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/features/com.amazonaws.eclipse.codestar.feature_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/features/com.amazonaws.eclipse.core.feature_2.3.1.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/features/com.amazonaws.eclipse.elasticbeanstalk.feature_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/features/com.amazonaws.eclipse.lambda.feature_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/features/com.amazonaws.eclipse.opsworks.feature_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/features/com.amazonaws.eclipse.rds.feature_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/features/com.amazonaws.eclipse.simpledb.feature_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.cloudformation_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.codecommit_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.codedeploy_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.codestar_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.dynamodb_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.ec2_1.1.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.elasticbeanstalk_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.identitymanagement_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.javasdk_1.11.248.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.lambda_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.opsworks_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.rds_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.sdk.ui_2.1.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.simpledb_1.0.0.v201805311643.jar"/>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/aws-toolkit-for-eclipse-v201805311643/plugins/com.amazonaws.eclipse.core_2.3.1.v201805311643.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/okeyamechi/Downloads/mysql-connector-java-8.0.12/mysql-connector-java-8.0.12.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
