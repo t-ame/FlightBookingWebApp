@@ -8,7 +8,7 @@ jdbc.driverName=com.mysql.jdbc.Driver
 
 jdbc.url=jdbc:mysql://127.0.0.1:3306/Connections?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
 jdbc.username=root
-jdbc.password=Special.girl1
+jdbc.password=password
 jdbc.driverName=com.mysql.cj.jdbc.Driver
 
 
